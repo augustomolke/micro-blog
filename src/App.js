@@ -13,10 +13,10 @@ function App() {
             <Route exact path="/micro-blog">
               <Home />
             </Route>
-            <Route path="/create">
+            <Route path="/micro-blog/create">
               <Create />
             </Route>
-            <Route path="/post/:id">
+            <Route path="/micro-blog/post/:id">
               <PostDetails />
             </Route>
           </Switch>

@@ -4,7 +4,7 @@ const Postlist = ({ posts }) => {
     <div className="blog-list">
       {posts.map((p) => (
         <div className="blog-preview" key={p.id}>
-          <Link to={`/post/${p.id}`}>
+          <Link to={`/micro-blog/post/${p.id}`}>
             <h2>{p.title}</h2>
             <p>Autor: {p.author}</p>
           </Link>

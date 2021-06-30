@@ -11,7 +11,7 @@ const Create = ({ handleCreate }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     postService.createPost(newPost).then((res) => {
-      hist.push("/");
+      hist.push("/micro-blog");
     });
   };
   return (
