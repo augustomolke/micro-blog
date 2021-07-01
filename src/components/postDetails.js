@@ -11,7 +11,7 @@ const PostDetails = () => {
 
   const handleDelete = () => {
     postService.deletePost(id);
-    hist.push("/micro-blog");
+    hist.push("/");
   };
   return (
     <div className="postdetails">
